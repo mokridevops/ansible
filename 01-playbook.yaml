@@ -1,6 +1,6 @@
 - name: ping the server
   hosts: frontend #target server
-  tasks: #tasks == modules == collections
+  tasks: 
   - name": ping the server
     ping:
 
