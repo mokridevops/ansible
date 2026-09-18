@@ -1,5 +1,5 @@
 - name: print on the server via ansible
   hosts: frontend
   tasks: 
-  -name: print on the server
-   debug:
+  - name: hello world
+    debug:
