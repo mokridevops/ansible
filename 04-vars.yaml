@@ -1,0 +1,11 @@
+- name: demo on variables
+  hosts: localhost
+  connection: local #it will not ask for username and password
+  vars:
+     Name: "Mohan"
+     COURSE: "DEVOPS"
+     TRAINER: "SIVA KUMAR"
+  tasks:
+   - name:
+     debug:
+        msg: "Hi this is {{ Name }}, I am learning {{ COURSE }} from {{ TRAINER }}"
