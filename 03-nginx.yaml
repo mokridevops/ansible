@@ -7,7 +7,7 @@
     name: nginx
     state: present
 
-  - name: start and enable nginx
+  - name: start nginx
     service:
      name: nginx
      state: started
