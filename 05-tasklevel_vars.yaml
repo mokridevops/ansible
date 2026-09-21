@@ -6,8 +6,8 @@
    TRAINER: "Siva"
    DURATION: "200 hours"
   tasks:
-   name: task level variables
-   vars:
-    COURSE: "DEVOPS with AWS Course"
-   debug:
+   - name: task level variables
+     vars:
+      COURSE: "DEVOPS with AWS Course"
+     debug:
       msg: "Hi, I am learning {{COURSE}}, Trainer is {{TRAINER}}, Duration is {{DURATION}}"
