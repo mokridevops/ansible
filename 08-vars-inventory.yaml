@@ -1,5 +1,5 @@
 - name: demo on inventory variables
-  hosts: local
+  hosts: localhost
   connection: local # it does not need user id and password
   tasks:
    - name: print information
