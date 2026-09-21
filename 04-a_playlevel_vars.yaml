@@ -7,4 +7,4 @@
       DURATION: "150 hours"
   tasks:
       - debug:
-        msg: "Hi, I am learning {{ COURSE }}, with the trainer {{ TRAINER }} , and for duration {{ DURATION }}"
+         msg: "Hi, I am learning {{ COURSE }}, with the trainer {{ TRAINER }} , and for duration {{ DURATION }}"
