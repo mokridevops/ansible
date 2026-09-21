@@ -1,4 +1,4 @@
-- notes: demo on playlevel variables
+- name: demo on playlevel variables
   hosts: localhost
   connection: local
   vars:
@@ -8,4 +8,3 @@
   tasks:
       - debug:
         msg: "Hi, I am learning {{ COURSE }}, with the trainer {{ TRAINER }} , and for duration {{ DURATION }}"
-        
