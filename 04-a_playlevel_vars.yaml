@@ -1,0 +1,11 @@
+- notes: demo on playlevel variables
+  hosts: localhost
+  connection: local
+  vars:
+      COURSE:"Ansible"
+      TRAINER:"Siva"
+      DURATION:"150 hours"
+  tasks:
+      - debug:
+        msg: "Hi, I am learning {{ COURSE }}, with the trainer {{ TRAINER }} , and for duration {{ DURATION }}"
+        
