@@ -9,20 +9,21 @@
      evironmnet: dev
     full_name: Siva Kumar Reddy
     ip_address: 1000.234:789:9909
-    taglist:
-    {
-      "key": "name"
-      "value": "Ansible"
+    tagslist: [
+      {
+        "key": "name"
+        "value": "Ansible"
 
-    } ,
-    {
-      "key": "project"
-      "value": "roboshop"
-    }
-    {
-      "key": "environment"
-      "value", "dev"
-    }
+      } ,
+      {
+        "key": "project"
+        "value": "roboshop"
+      },
+      {
+        "key": "environment"
+        "value", "dev"
+      }
+    ]
   tasks:
   - name: convert string to list
     debug:
