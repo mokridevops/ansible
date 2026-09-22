@@ -33,9 +33,9 @@
     debug:
       msg: "Hi {{ Greeting | default(' Hello Sir')}}"
 
-  - name: convert from ap to taglist
+  - name: convert from Map to taglist
     debug:
-      msg: "{{ tagMap | dic2items }}"
+      msg: "{{ tagMap | dict2items }}"
 
   - name: convert from list to map
     debug:
