@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    is_live_sessions: 6
+    is_live_sessions: 4
   tasks:
    - name: is number of live sessions for ansible is greater than 5
      debug:
