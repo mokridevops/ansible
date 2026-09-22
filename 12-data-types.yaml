@@ -14,8 +14,9 @@
      trainer: "siva"
 
   tasks:
-    debug:
-      msg: |
+   - name: 
+      debug:
+       msg: |
         name: {{ course }}
         duration: {{ duration_in_hrs }}
         is_live_sessions: {{ is_live_sessions }}
