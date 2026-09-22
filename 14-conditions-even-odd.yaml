@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-     given_no = 7
+     given_no : 7
   tasks:
     - name: is the given number even?"
       debug: 
