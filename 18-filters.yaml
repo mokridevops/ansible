@@ -21,7 +21,7 @@
       },
       {
         "key": "environment"
-        "value", "dev"
+        "value": "dev"
       }
     ]
   tasks:
@@ -39,15 +39,15 @@
 
   - name: convert from list to map
     debug:
-      msg: "{{ tagList | items2dict}}" 
+      msg: "{{ tagsList | items2dict}}" 
 
   - name: convert to uppercase
     debug:
-      msg: "{{fullname | upper }}"
+      msg: "{{ fullname | upper }}"
 
   - name: convert to lower
     debug:
-      msg: "{{ fullname | lower}}"
+      msg: "{{ fullname | lower }}"
 
   - name: check ipv4 ip_address
     debug: 
