@@ -3,5 +3,5 @@
   tasks:
    - name: print variable information
      debug:
-       msg: "Hi, I am learning {{COURSE}} course, Instructor is {{TRAINER}}, Duration is {{DURATION}} "
+       msg: "Hi, I am learning {{ COURSE }} course, Instructor is {{ TRAINER }}, Duration is {{ DURATION }} "
  
