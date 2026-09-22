@@ -43,11 +43,11 @@
 
   - name: convert to uppercase
     debug:
-      msg: "{{ fullname | upper }}"
+      msg: "{{ full_name | upper }}"
 
   - name: convert to lower
     debug:
-      msg: "{{ fullname | lower }}"
+      msg: "{{ full_name | lower }}"
 
   - name: check ipv4 ip_address
     debug: 
