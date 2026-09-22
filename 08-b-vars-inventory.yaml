@@ -1,12 +1,5 @@
 - name: demo on inventory variables
   hosts: frontend
-  #connection: local # it does not need user id and password
-  #tasks:
-  # - name: print information
-  #   debug:
-  #    msg: "Hi, I am studying {{COURSE}}, Trainer is {{TRAINER}}, Duration is {{DURATION}}"
-
-
   tasks:
    - name: print variable information
      debug:
