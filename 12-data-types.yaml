@@ -14,8 +14,8 @@
      trainer: "siva"
 
   tasks:
-   - name: print info 
-      debug:
+   - name: print information 
+     debug:
        msg: |
         name: {{ course }}
         duration: {{ duration_in_hrs }}
