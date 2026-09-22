@@ -3,6 +3,26 @@
   connection: local
   vars:
     topics: Linux, Shell, Ansible, Terraform
+    tagMap: 
+     name: Ansible
+     project: roboshop
+     evironmnet: dev
+    full_name: Siva Kumar Reddy
+    ip_address: 1000.234:789:9909
+    taglist:
+    {
+      "key": "name"
+      "value": "Ansible"
+
+    } ,
+    {
+      "key": "project"
+      "value": "roboshop"
+    }
+    {
+      "key": "environment"
+      "value", "dev"
+    }
   tasks:
   - name: convert string to list
     debug:
@@ -11,3 +31,23 @@
   - name: set default values
     debug:
       msg: "Hi {{ Greeting | default(' Hello Sir')}}"
+
+  - name: convert from ap to taglist
+    debug:
+      msg: "{{ tagMap | dic2items }}"
+
+  - name: convert from list to map
+    debug:
+      msg: "{{ tagList | items2dict}}" 
+
+  - name: convert to uppercase
+    debug:
+      msg: "{{fullname | upper }}"
+
+  - name: convert to lower
+    debug:
+      msg: "{{ fullname | lower}}"
+
+  - name: check ipv4 ip_address
+    debug: 
+      msg: "{{ ip_address | ansible.utils.ip4 }}"
