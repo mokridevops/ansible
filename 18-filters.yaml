@@ -11,16 +11,16 @@
     ip_address: 1000.234:789:9909
     tagslist: [
       {
-        "key": "name"
+        "key": "name",
         "value": "Ansible"
 
       } ,
       {
-        "key": "project"
+        "key": "project",
         "value": "roboshop"
       },
       {
-        "key": "environment"
+        "key": "environment",
         "value": "dev"
       }
     ]
