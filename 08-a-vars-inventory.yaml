@@ -10,5 +10,5 @@
   tasks:
    - name: print variable information
      debug:
-       msg: "Hi, I am learning {{COURSE}} course, Instructor is {{TRAINER}}, Duration is {{DURATION}}, course_key: {{ course_key}} "
+       msg: "Hi, I am learning {{COURSE}} course, Instructor is {{TRAINER}}, Duration is {{DURATION}}, common_key: {{ common_key }} "
  
