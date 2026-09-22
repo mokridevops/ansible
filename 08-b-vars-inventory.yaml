@@ -1,4 +1,4 @@
-- name: demo on inventory variables
+- name: demo on inventory variables multinode
   hosts: frontend
   tasks:
    - name: print variable information
