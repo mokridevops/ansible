@@ -8,7 +8,7 @@
      project: roboshop
      evironmnet: dev
     full_name: Siva Kumar Reddy
-    ip_address: 1000.234:789:9909
+    ip_address: 100.58.115.38 #1000.234:789:9909
     tagslist: [
       {
         "key": "name",
