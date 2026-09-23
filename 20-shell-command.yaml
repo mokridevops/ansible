@@ -1,0 +1,11 @@
+- name: demo on shell vs command
+  hosts: local
+  connection: local
+  tasks:
+    - name: command_test
+      shell: cat /etc/passwd | grep root
+      register: users_output
+
+    - name: print_output
+      debug:
+        msg: "Users Output is {{ users_output }}"
