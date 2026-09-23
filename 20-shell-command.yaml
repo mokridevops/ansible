@@ -9,3 +9,6 @@
     - name: print_output
       debug:
         msg: "{{ users_output }}"
+
+    - name: list filters
+      command: ls -ltr > /tmp/files.txt   
