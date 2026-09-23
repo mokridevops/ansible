@@ -9,5 +9,5 @@
 
    - name: print user out_put
      debug:
-       msg: "{{ user_output }}""
+       msg: "{{ user_output }}"
      
