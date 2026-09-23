@@ -8,4 +8,4 @@
 
     - name: print_output
       debug:
-        msg: "Users Output is {{ users_output }}"
+        msg: "Users Output is {{ users_output.stdout_lines }}"
